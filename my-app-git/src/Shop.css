@@ -1,0 +1,21 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+}
+
+.grid-container > div{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: white;
+    box-shadow: 5px 10px 8px rgba(128, 128, 128, 0.382);
+}
+.grid-container > div:hover{
+    border-color: rgb(255, 132, 0);
+}
